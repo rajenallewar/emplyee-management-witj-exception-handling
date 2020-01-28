@@ -1,0 +1,16 @@
+{
+  "Employee": {
+	    "id": "EMP-123",
+		"name": "James Bond",
+		"city": "London",
+	    "salary":  10000,
+	    "bonusPercentage": 0.2,
+	    "grossSalary" : 12000
+	}
+}
+
+
+
+
+  
+

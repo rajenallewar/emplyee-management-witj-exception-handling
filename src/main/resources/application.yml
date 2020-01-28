@@ -1,0 +1,12 @@
+
+server.port: 9401
+spring:
+ application.name: emplyee-management
+ cloud.config.server.git.uri: https://github.com/rajenallewar/spring-boot-external-config-server.git
+eureka:
+ client:
+   serviceUrl:
+     defaultZone: http://localhost:8010/eureka/
+   registryFetchIntervalSeconds: 1
+ instance:
+   leaseRenewalIntervalInSeconds: 1
